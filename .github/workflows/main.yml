@@ -1,5 +1,3 @@
-
-
 name: expenseTracker app
 
 # Controls when the action will run. Triggers the workflow on push or pull request
@@ -48,8 +46,7 @@ jobs:
         run: sudo cp ./build/index.html ./build/200.html && sudo rm ./build/index.html
       # Deploy Surge
       - name: Deploy React App to Surge
-        run: surge ./build http://expensetracker-adeel.surge.sh/ --token ${{ secrets.SURGETOKEN}}
-
+        run: surge ./build http://expensetracker-adeel.surge.sh/ --token ${{ secrets.SURGETOKEN }}
 # # This is a basic workflow to help you get started with Actions
 
 # name: expenseTracker app
