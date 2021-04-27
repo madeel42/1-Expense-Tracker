@@ -1,0 +1,29 @@
+.Heading{
+    
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+
+}
+.FormComponent> div > label{
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+.FormComponent > div > input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.FormComponent button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+}

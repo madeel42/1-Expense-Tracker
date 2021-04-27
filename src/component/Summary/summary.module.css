@@ -1,0 +1,19 @@
+.SummaryWrapper {
+    display:flex;
+    justify-content:space-between; 
+    background:#fff;
+    padding:10px; margin:20px 0;
+    box-shadow:2px 4px 20px -2px #888888;
+    }
+.SummaryWrapper > div {
+    flex:1; 
+    text-align:center;}
+.SummaryWrapper > div:first-of-type {
+    border-right:1px solid brown;
+}
+.moneyPlus {margin:5px 0; 
+    font-weight:bold; 
+    font-size:12px;}
+.moneyMinus {margin:5px 0; 
+    font-weight:bold; 
+    font-size:12px;}
