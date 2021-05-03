@@ -5,9 +5,18 @@
     background: #fff;
     padding: 12px;
     box-shadow:2px 4px 20px -2px #888888;
+    position: relative;
 }
 .THB{
     border-bottom: 1px solid #bbb;
     margin: 31px 0 0px;
     padding-bottom: 8px;
+}
+.dellButton{
+    position: absolute;
+    left: -25px;
+    opacity: 0;
+}
+.ulWrapper:hover > .dellButton{
+    opacity: 1;
 }
